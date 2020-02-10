@@ -1,0 +1,25 @@
+{
+    "name": "sndwow/yii2-baidu-face",
+    "description": "封装百度sdk",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "sndwow",
+            "email": "thmod@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "sndwow/baidu-aip-sdk": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "sndwow\\": ""
+        }
+    }
+}
